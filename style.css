@@ -57,11 +57,11 @@ a {
 }
 .banner-button {
 	border: rgba(204, 204, 204, 0.18) 1px solid;
-	padding: 10px 30px;
+	padding: 12px 35px;
 	color: #ccc;
 	text-decoration: none;
 	display: inline-block;
-	border-radius: 15px 15px 15px 15px;
+	border-radius: 25px 25px 25px 25px;
 	font-size: 15px;
 	margin-top: 50px;
 }
@@ -90,6 +90,22 @@ a {
 .navbar-nav > li > a {
 	padding-top: 15px;
 	padding-bottom: 13px;
+}
+
+.nav-button {
+	border: rgba(204, 204, 204, 0.18) 1px solid;
+	padding: 12px 35px;
+	color: #ccc;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 5px 5px 5px 25px;
+	font-size: 15px;
+	margin-top: 50px;
+}
+.nav-button:hover {
+	background-color: #ccc;
+	text-decoration: none;
+	color: #000;
 }
 /*-----Header & Banner Ends-------*/
 

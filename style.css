@@ -437,6 +437,7 @@ ul.social-buttons li a {
 }
 ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
 	background-color: #EB233C;
+    --fa-bounce-rebound
 }
 .btn:focus, .btn:active, .btn.active, .btn:active:focus {
 	outline: 0 none;

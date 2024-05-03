@@ -322,25 +322,25 @@ a {
 /*-----Contact Starts-------*/
 .contact {
 	background-color: rgba(204, 204, 204, 0.15);
-	padding: 50px 0px;
+	padding: 20px 0px;
 	float: left;
 	width: 100%;
 }
 .contact h3 {
 	margin-top: 0px;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 	border-bottom: 2px solid #EB233C;
 	display: inline-block;
-	line-height: 35px;
+	line-height: 30px;
 }
 .contact-form {
-	margin-top: 45px;
+	margin-top: 35px;
 }
 .form-control {
 	display: block;
 	width: 100%;
 	height: 34px;
-	padding: 6px 12px;
+	padding: 6px 2px;
 	font-size: 14px;
 	line-height: 1.42857;
 	color: #242424;
@@ -356,7 +356,7 @@ a {
 }
 .form-control:hover, .form-control:focus {
 	box-shadow: none;
-	border-bottom: 2px solid #242424;
+	border-bottom: 2px solid #242423;
 }
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 color: #242424 !important;
@@ -372,18 +372,19 @@ color: #242424 !important;
 }
 .contact-button {
 	border: none;
-	padding: 12px 35px;
+	padding: 12px 25px;
 	color: #ffffff;
 	text-decoration: none;
 	display: inline-block;
-	border-radius: 25px 25px 25px 25px;
+	border-radius: 20px 20px 20px 20px;
 	font-size: 15px;
 	background-color: #EB233C;
 	margin-top: 30px;
 }
 .address {
 	color: #242424;
-	margin-top: 70px;
+	margin-top: 30px;
+    margin-left: 20px;
 }
 .address h4 {
 	color: #EB233C;
@@ -400,10 +401,10 @@ color: #242424 !important;
 	font-size: 16px;
 }
 .email {
-	padding-top: 15px;
+	padding-top: 5px;
 }
 footer {
-	padding: 25px 0;
+	padding: 15px 0;
 	text-align: center;
 	width: 100%;
 	float: left;
@@ -458,6 +459,6 @@ nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active >
 	;
 }
 .features, .about, .portfolio, .contact, .testimonials {
-	padding: 50px 0px;
+	padding: 40px 0px;
 }
 }

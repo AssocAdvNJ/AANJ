@@ -27,7 +27,7 @@ a {
 	background-color: #fff;
 }
 .navbar-toggle .icon-bar {
-	background-color: RGBA(0, 0, 0, 0.48);
+	background-color: RGBA(0, 255, 0, 0.48);
 }
 .banner {
 	background-attachment: fixed;

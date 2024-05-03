@@ -43,7 +43,7 @@ a {
 	float: left;
 }
 .bg-overlay {
-	padding: 280px 0 220px;
+	padding: 200px 0 220px;
 	background-color: RGBA(15, 5, 20, 0.84);
 }
 .banner-text h2 {
@@ -88,7 +88,7 @@ a {
 	border-bottom: 2px solid #EB233C;
 }
 .navbar-nav > li > a {
-	padding-top: 15px;
+	padding-top: 10px;
 	padding-bottom: 13px;
 }
 

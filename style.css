@@ -383,11 +383,12 @@ color: #242424 !important;
 }
 .address {
 	color: #242424;
-	margin-top: 30px;
+	margin-top: 0px;
     margin-left: 20px;
 }
 .address h4 {
 	color: #EB233C;
+    margin-bottom: auto;
 	font-size: 22px;
 }
 .address p {
@@ -426,7 +427,7 @@ ul.social-buttons {
 }
 ul.social-buttons li a {
 	background-color: #222;
-	border-radius: 100%;
+	border-radius: 30%;
 	color: #fff;
 	display: block;
 	font-size: 20px;
@@ -438,7 +439,8 @@ ul.social-buttons li a {
 }
 ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
 	background-color: #EB233C;
-    --fa-bounce-rebound
+    border-radius: 100%;
+    
 }
 .btn:focus, .btn:active, .btn.active, .btn:active:focus {
 	outline: 0 none;

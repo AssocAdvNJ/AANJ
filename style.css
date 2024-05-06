@@ -251,11 +251,11 @@ a {
 	float: left;
 }
 .call-overlay {
-	padding: 50px 0px;
+	padding: 20px 0px;
 	background-color: RGBA(15, 5, 20, 0.84);
 }
 .subscribe-text {
-	text-align: left;
+	text-align: center;
 }
 .subscribe-text h3 {
 	margin-top: 0px;
@@ -263,7 +263,7 @@ a {
 	border-bottom: 2px solid #EB233C;
 	display: inline-block;
 	line-height: 35px;
-	text-align: left;
+	text-align: center;
 }
 .subscribe-button {
 	padding: 10px 30px;

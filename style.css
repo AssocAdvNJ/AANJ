@@ -148,6 +148,8 @@ a {
 	background-color: rgba(235, 213, 235, 0.26);
 	float: left;
 	width: 100%;
+    cursor: url(https://cur.cursors-4u.net/people/peo-8/peo943.cur), auto !important;
+    
 }
 .portfolio-item {
 	margin-bottom: 20px;
@@ -205,16 +207,19 @@ a {
 	background-color: rgba(235, 213, 235, 0.26);
 	padding: 20px 20px 10px;
 	border-radius: 10px;
+    cursor: url(https://ani.cursors-4u.net/movie/mov-2/mov158.cur), auto !important;
 }
 .item {
 }
 .test p {
 	font-size: 15px;
 	font-weight: 300;
-    text-align: center
+    text-align: center;
+    
 }
 .test i {
 	padding: 0px 8px;
+    
 }
 .test-img {
 	margin-top: 30px;
@@ -297,6 +302,7 @@ a {
 	padding: 50px 0px;
 	width: 100%;
 	float: left;
+    cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat977.ani), url(https://cur.cursors-4u.net/nature/nat-10/nat977.gif), auto !important;
 }
 .about h3 {
 	margin-top: 0px;
@@ -408,7 +414,7 @@ color: #242424 !important;
     cursor: help;
 }
 .email {
-	padding-top: 5px;
+	padding-top: 0px;
     cursor: help;
 }
 footer {
@@ -430,7 +436,7 @@ footer ul.quicklinks a {
 	text-decoration: none;
 }
 ul.social-buttons {
-	margin-bottom: 0;
+	margin-bottom: -5px;
 }
 ul.social-buttons li a {
 	background-color: #222;
@@ -443,7 +449,8 @@ ul.social-buttons li a {
 	outline: 0 none;
 	transition: all 0.3s ease 0s;
 	width: 40px;
-    cursor: url(myBall.cur), auto;
+    
+ cursor: url(https://cur.cursors-4u.net/others/oth-6/oth516.ani), url(https://cur.cursors-4u.net/others/oth-6/oth516.png), auto !important;
 }
 ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
 	background-color: #EB233C;
@@ -470,5 +477,6 @@ nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active >
 }
 .features, .about, .portfolio, .contact, .testimonials {
 	padding: 40px 0px;
+    
 }
 }

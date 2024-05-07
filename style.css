@@ -78,7 +78,7 @@ a {
 	font-family: 'Work Sans', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
-    margin right: -5px;
+    margin-right: -10px;
 }
 .nav > li > a:focus, .nav > li > a {
 	color: #E1DBDB;

@@ -33,9 +33,9 @@ a {
 	background-attachment: fixed;
 	background-color: #645862;
 	background-image: url(images/background.jpg);
-	background-position: -70% 160%;
+	background-position: 0% 100%;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 2500px 1665px;
 	color: white;
 	cursor: default;
 	text-align: center;

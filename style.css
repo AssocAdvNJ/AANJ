@@ -30,12 +30,12 @@ a {
 	background-color: RGBA(0, 0, 0, 0.48);
 }
 .banner {
-	background-attachment: scroll;
+	background-attachment: fixed;
 	background-color: #645862;
 	background-image: url(images/background.jpg);
-	background-position: 60% 120%;
+	background-position: -70% 160%;
 	background-repeat: no-repeat;
-	background-size: 1600px 900px;
+	background-size: cover;
 	color: white;
 	cursor: default;
 	text-align: center;

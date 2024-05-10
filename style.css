@@ -18,13 +18,25 @@ a {
 .navbar-brand {
 	font-family: 'Oleo Script Swash Caps', cursive;
 	color: #ffffff;
-	font-size: 28px;
-    margin-right: -70px;
+	font-size: 26px;
+    height: 70px;
+    width: 300px;
     
 }
 .navbar-brand:hover {
 	color: #EB233C;
 }
+
+.navbar-brand2 {
+    margin-left: -70px;
+    margin-right: -20px;
+    
+}
+
+.navbar-brand2:hover {
+	color: #EB233C;
+}
+
 .navbar-toggle {
 	background-color: #fff;
     margin-top: 20px;

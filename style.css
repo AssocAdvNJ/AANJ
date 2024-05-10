@@ -76,12 +76,14 @@ a {
 .mynav {
 	transition: all 0.8s ease-in;
 	background: rgb(68, 51, 68) none repeat scroll 0% 0%;
+    text-align: left;
 }
 .mynav li a {
 	font-family: 'Work Sans', sans-serif;
 	font-size: 15px;
 	font-weight: 400;
     margin-right: -13px;
+    
 }
 .nav > li > a:focus, .nav > li > a {
 	color: #E1DBDB;

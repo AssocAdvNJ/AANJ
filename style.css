@@ -143,9 +143,16 @@ a {
 	margin: 0px;
 	display: inline-box;
 	border: rgba(204, 204, 204, 0.18) 1px solid;
-	;
 	border-radius: 50%;
 	padding: 0px !important;
+    color: #EB233C;
+	display: block;
+	font-size: 30px;
+	line-height: 40px;
+	outline: 0 none;
+	transition: all 0.3s ease 0s;
+
+    
 }
 .icon-box i {
 	line-height: 70px;

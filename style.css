@@ -19,6 +19,8 @@ a {
 	font-family: 'Oleo Script Swash Caps', cursive;
 	color: #ffffff;
 	font-size: 28px;
+    margin-right: -70px;
+    
 }
 .navbar-brand:hover {
 	color: #EB233C;
@@ -78,7 +80,7 @@ a {
 	font-family: 'Work Sans', sans-serif;
 	font-size: 15px;
 	font-weight: 400;
-    margin-right: -20px;
+    margin-right: -13px;
 }
 .nav > li > a:focus, .nav > li > a {
 	color: #E1DBDB;
@@ -89,8 +91,8 @@ a {
 	border-bottom: 2px solid #EB233C;
 }
 .navbar-nav > li > a {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 24px;
+	padding-bottom: 23px;
 }
 
 .nav-button {

@@ -28,7 +28,7 @@ a {
 }
 
 .navbar-brand2 {
-    margin-left: -70px;
+    margin-left: -84px;
     margin-right: -20px;
     
 }
@@ -88,13 +88,15 @@ a {
 .mynav {
 	transition: all 0.8s ease-in;
 	background: rgb(68, 51, 68) none repeat scroll 0% 0%;
-    text-align: left;
+    
 }
 .mynav li a {
 	font-family: 'Work Sans', sans-serif;
 	font-size: 15px;
 	font-weight: 400;
-    margin-right: -13px;
+    margin-right: 0px;
+    margin-left: 0px;
+    
     
 }
 .nav > li > a:focus, .nav > li > a {
@@ -105,11 +107,11 @@ a {
 	background-color: #665566;
 	color: #fff;
 	border-bottom: 2px solid #EB233C;
-    text-align: center;
 }
 .navbar-nav > li > a {
 	padding-top: 24px;
 	padding-bottom: 23px;
+    margin-right: -20px;
 }
 
 .nav-button {

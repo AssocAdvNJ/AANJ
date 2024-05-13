@@ -89,7 +89,6 @@ a {
 	transition: all 0.8s ease-in;
 	background: rgb(68, 51, 68) none repeat scroll 0% 0%;
     
-    
 }
 .mynav li a {
 	font-family: 'Work Sans', sans-serif;
@@ -97,15 +96,15 @@ a {
 	font-weight: 400;
     margin-right: 0px;
     margin-left: 0px;
-    
+    padding: 23px;
 }
 .nav > li > a:focus, .nav > li > a {
 	color: #E1DBDB;
-    text-align: center;
+    text-align: left;
 }
 .nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active > a {
 	background-color: #665566;
-    background-size: 10px 20px;
+    background-size: contain;
 	color: #fff;
 	border-bottom: 2px solid #EB233C;
 }
@@ -145,7 +144,7 @@ a {
 	display: inline-box;
 	border: rgba(204, 204, 204, 0.18) 1px solid;
 	border-radius: 50%;
-	padding: 13px !important;
+	padding: 15px !important;
     color: #EB233C;
 	display: block;
 	font-size: 30px;
@@ -502,7 +501,6 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 }
 nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active > a {
 	border-bottom: none;
-	;
 }
 .features, .about, .portfolio, .contact, .testimonials {
 	padding: 40px 0px;

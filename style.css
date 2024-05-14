@@ -48,7 +48,7 @@ a {
 	background-attachment: fixed;
 	background-color: #645862;
 	background-image: url(images/background.jpg);
-	background-position: 30% 90%;
+	background-position: 57% 85%;
 	background-repeat: no-repeat;
 	background-size: 2500px 1665px;
 	color: white;
@@ -96,14 +96,17 @@ a {
 	font-weight: 400;
     margin-right: 0px;
     margin-left: 0px;
-    padding: 23px;
+    padding: 20px;
     display: block;
+    overflow: hidden;
+    
 }
 .nav > li > a:focus, .nav > li > a {
 	color: #E1DBDB;
-    text-align: center;
-    padding: -20px;
-    width: 100%;
+    text-align: left;
+
+    overflow-y: hidden;
+
     
 }
 .nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active > a {
@@ -116,6 +119,7 @@ a {
 	padding-top: 24px;
 	padding-bottom: 23px;
     margin-right: -20px;
+    overflow: hidden;
 }
 
 .nav-button {

@@ -101,7 +101,10 @@ a {
 }
 .nav > li > a:focus, .nav > li > a {
 	color: #E1DBDB;
-    text-align: left;
+    text-align: center;
+    padding: -20px;
+    width: 100%;
+    
 }
 .nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active > a {
 	background-color: #665566;

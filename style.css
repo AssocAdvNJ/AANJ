@@ -283,12 +283,12 @@ a {
     font-family: Tahoma, Verdana, sans-serif;
     font-weight: 300;
     font-size: 15px;
-    background-position: -280px -150px;
+    background-position: 57% 90%;
 	background-attachment: fixed;
 	background-color: #645862;
 	background-image: url(images/background.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 2500px 1665px;
 	color: white;
 	cursor: default;
 	text-align: center;

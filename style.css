@@ -23,6 +23,7 @@ a {
     width: 300px;
     
 }
+
 .navbar-brand:hover {
 	color: #EB233C;
 }
@@ -88,7 +89,7 @@ a {
 .mynav {
 	transition: all 0.8s ease-in;
 	background: rgb(68, 51, 68) none repeat scroll 0% 0%;
-    
+
 }
 .mynav li a {
 	font-family: 'Work Sans', sans-serif;
@@ -99,7 +100,6 @@ a {
     padding: 20px;
     display: block;
     overflow: hidden;
-    
 }
 .nav > li > a:focus, .nav > li > a {
 	color: #E1DBDB;
@@ -117,7 +117,7 @@ a {
 }
 .navbar-nav > li > a {
 	padding-top: 24px;
-	padding-bottom: 23px;
+	padding-bottom: 20px;
     margin-right: -20px;
     overflow: hidden;
 }
@@ -160,7 +160,6 @@ a {
 	outline: 0 none;
 	transition: all 0.3s ease 0s;
 
-    
 }
 .icon-box i {
 	line-height: 70px;

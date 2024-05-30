@@ -175,6 +175,11 @@ a {
 
 /*-----Features Ends-------*/
 
+/*---Videos-----*/
+video {
+  height: auto;
+  width: 100%;
+}
 
 /*-----Portfolio or Work Starts-------*/
 

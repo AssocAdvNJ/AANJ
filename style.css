@@ -179,6 +179,10 @@ a {
 video {
   height: auto;
   width: 100%;
+    border-top-left-radius : 40px; 
+    border-bottom-right-radius : 40px; 
+    overflow: hidden; 
+
 }
 
 /*-----Portfolio or Work Starts-------*/

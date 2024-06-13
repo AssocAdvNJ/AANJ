@@ -97,7 +97,7 @@ $.each(gif, function(index) {
           <li class="active"><a href="#banner">Home</a></li>
 <!--      <li><a href="#work">Communities</a></li> -->
           <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#services">Services</a></li>
+        <li><a href="index.html#services" target="_self">Services</a></li>
           <li><a href="#aboutus">About us</a></li>
      <!--     <li><a href="#contact">Contact</a></li> -->
             <li><a href="https://portal.goenumerate.com/login" target="_parent" class="link-tab">Login</a></li>
@@ -114,9 +114,9 @@ $.each(gif, function(index) {
           <div class="banner-text">
             
         <div>
-        <body style='overflow:hidden'>
-           <div style="border: 1px solid #FF0000; overflow: hidden; margin: -16px auto; max-width: auto;">
-            <iframe scrolling="no" src="https://portal.goenumerate.com/login" style="border: 0px none; height: 400px; width: 100%; max-width: 750px; min-height: 740px;">
+    <!--    <body style='overflow:hidden'> -->
+           <div style="border: 1px solid #FF0000; margin: -16px auto; max-width: 760px; min-height:  -height: 900px;">
+            <iframe scrolling="yes" src="https://portal.goenumerate.com/login" style="border: 0px none; height: 100%; width: 100%; max-width: 800px; min-height: 740px;">
             </iframe>
             
       <!--  Orig Login box      
@@ -148,7 +148,7 @@ $.each(gif, function(index) {
       
         <div class="feature-box media">
           <div> 
-<body style='overflow:hidden'>
+              <body style='overflow:hidden'>
      <embed type="text/html" src="https://portal.goenumerate.com/login" width="100%" height="700px" style="overflow:auto">
               
 <!--    <object type="text/html" data="https://portal.goenumerate.com/login" width="1000px" height="600px" style="overflow:auto;border:5px ridge blue">
@@ -199,7 +199,7 @@ $(document).ready(function() {
           slideSpeed : 400,
 		  autoPlay : 5000,
           paginationSpeed : 400,
-          singleItem:true
+          singleItem: true,
      
           // "singleItem:true" is a shortcut for:
           // items : 1, 
@@ -255,6 +255,7 @@ $(document).ready(function() {
     window.location.hash = hash;
     });
   });
+    ]);
 })
     // External links
     $('.link-tab').click(function(){
@@ -279,8 +280,7 @@ var gif = getGif();
     function changeImage(imageUrl){
     $('#img').attr('src',imageUrl);
 }
-   
-    
+  
 </script>
 </body>
 

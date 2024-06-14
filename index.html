@@ -107,7 +107,7 @@ $.each(gif, function(index) {
           <li><a href="#aboutus">About us</a></li>
      <!--     <li><a href="#contact">Contact</a></li> -->
            <!-- <li><a href="https://portal.goenumerate.com/login" target="_parent" class="link-tab">Login</a></li> -->
-            <li><a href="enumerate.html" target="_self" >Login</a></li>
+            <li><a href="https://portal.topssoft.com/login" class=".link-tab" target="_self">Login</a></li>
             
         </ul>
       </div>
@@ -267,14 +267,14 @@ $.each(gif, function(index) {
         <div class="about-text">
         </div>
       </div>
-        <div class="col-md-6">
+        <div class="col-md-12">
         <div class="col-md-6 col-sm-6 col-xs-6 block">
-          <div class="counter-item text-center">
+          <div class="col-md-6 counter-item text-center">
             <h5>Days without dog pee in office</h5>
             <div class="timer" data-from="0" data-to="54" data-speed="5000" data-refresh-interval="50"></div>
           </div>
         </div>
-        <div class="col-md-6 col-sm-6 col-xs-6">
+        <div class="col-md-6 col-sm-6 col-xs-6 block">
           <div class="counter-item text-center">
             <h5>Days since Amanda promised Chris a salad</h5>
             <div class="timer" data-from="0" data-to="355" data-speed="5000" data-refresh-interval="50"></div>
@@ -385,7 +385,6 @@ $(document).ready(function() {
 	});
  
       function count(options) {
-        options = $.extend({}, options || [],
         var $this = $(this);
         options = $.extend({}, options || {}, $this.data('countToOptions') || {});
         $this.countTo(options);

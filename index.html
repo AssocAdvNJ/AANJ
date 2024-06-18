@@ -107,7 +107,7 @@ $.each(gif, function(index) {
           <li><a href="#aboutus">About us</a></li>
      <!--     <li><a href="#contact">Contact</a></li> -->
            <!-- <li><a href="https://portal.goenumerate.com/login" target="_parent" class="link-tab">Login</a></li> -->
-            <li><a href="https://portal.goenumerate.com/login" target="self" class="link-tab">Login</a></li>
+            <li><a href="https://portal.goenumerate.com/login" target="_self" class="link-tab">Login</a></li>
             
         </ul>
       </div>
@@ -406,7 +406,7 @@ $(document).ready(function() {
   // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
   $('html, body').animate({
     scrollTop: $(hash).offset().top
-  }, 900, function(){
+  }, 700, function(){
 
     // Add hash (#) to URL when done scrolling (default click behavior)
     window.location.hash = hash;

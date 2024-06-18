@@ -261,16 +261,17 @@ video {
 }
 .test p {
 	font-size: 15px;
-	font-weight: 300;
+	font-weight: 400;
     text-align: center;
     
 }
 .test i {
-	padding: 0px 8px;
+	padding: 0px 0px;
     
 }
 .test-img {
 	margin-top: 30px;
+    vertical-align: baseline;
 
 }
 .test-img img {
@@ -279,6 +280,7 @@ video {
 	border-radius: 50%;
 	border: 2px solid rgba(68, 51, 68, 0.46);
 	display: inline-block;
+    vertical-align: bottom;
 }
 .test-img p {
 	display: inline-block;
@@ -528,4 +530,23 @@ nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active >
 	padding: 40px 0px;
     
 }
+}
+
+/*--------Fontawesome icon-------*/
+
+.stars {
+    background-color: #645862;
+    vertical-align: top;
+    display: inline-block;
+    width: 85px;
+    height: 14px;
+    margin-left: 50px;
+}
+
+.fa-star{
+    color: #FFFF00;
+    font-size: 11px;
+    margin-bottom: 3px;
+    /* stroke: black;
+    stroke-width: 1px; */
 }

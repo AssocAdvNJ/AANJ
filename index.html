@@ -192,8 +192,8 @@ $.each(gif, function(index) {
           </div>
         </div>
         <!-- /.row (nested) --> 
-        <a href="#" class="view-more" id="seeMoreRecords" value="More">View More Items</a> 
-          <a href="#" class="view-more" id="seeLessRecords" value="More">View Less Items</a> 
+        <a href="#" class="view-more" id="seeMoreRecords" value="More">View More</a> 
+          <a href="#" class="view-more" id="seeLessRecords" value="More">View Less</a> 
         <table id="internalActivities">
 
 </table>
@@ -467,7 +467,7 @@ var gif = getGif();
    
     //View More Communities
     for (var i=0;i<21;i++) {
-    $('#internalActivities').append('<tr><td>my data</td></tr>');
+    $('#internalActivities').append('<tr><td>pictures</td></tr>');
 }
 
 var trs = $("#internalActivities tr");
@@ -477,7 +477,7 @@ var trsLength = trs.length;
 var currentIndex = 0;
 
 trs.hide();
-trs.slice(0, 10).show(); 
+trs.slice(0, 1).show(); 
 checkButton();
 
 btnMore.click(function (e) { 
@@ -489,8 +489,8 @@ btnMore.click(function (e) {
 
 btnLess.click(function (e) { 
     e.preventDefault();
-    $("#internalActivities tr").slice(currentIndex - 10, currentIndex).hide();          
-    currentIndex -= 10;
+    $("#internalActivities tr").slice(currentIndex - 5, currentIndex).hide();          
+    currentIndex -= 5;
     checkButton();
 });
 

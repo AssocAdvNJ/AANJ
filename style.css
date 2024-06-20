@@ -270,7 +270,7 @@ video {
     
 }
 .test-img {
-	margin-top: 30px;
+	margin-top: 10px;
     vertical-align: baseline;
 
 }
@@ -541,13 +541,14 @@ nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active >
     width: 85px;
     height: 14px;
     border: 0px solid black;
-    margin-left: 50px;
+    margin-left: 40px;
+    padding-top: 30px;
 }
 
 .fa-star{
     color: #FFFF00;
     font-size: 11px;
-    margin-bottom: 3px;
+    margin-top: 10px;
     /* stroke: black;
     stroke-width: 1px; */
 }

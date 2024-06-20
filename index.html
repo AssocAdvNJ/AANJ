@@ -192,7 +192,12 @@ $.each(gif, function(index) {
           </div>
         </div>
         <!-- /.row (nested) --> 
-        <a href="#" class="view-more">View More Items</a> </div> 
+        <a href="#" class="view-more" id="seeMoreRecords" value="More">View More Items</a> 
+          <a href="#" class="view-more" id="seeLessRecords" value="More">View Less Items</a> 
+        <table id="internalActivities">
+
+</table>
+        </div> 
       <!-- /.col-lg-10 --> 
     </div>
     <!-- /.row --> 
@@ -212,7 +217,10 @@ $.each(gif, function(index) {
       <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
         <div id="owl-demo" class="owl-carousel owl-theme test">
           <div class="item">
-            <p><sup><i class="fa fa-quote-left"></i></sup>  Their glorious Executive Director is a pure joy regardless of her dry hands!  <sup><i class="fa fa-quote-right"></i></sup></p>
+            <p><sup><i class="fa fa-quote-left"></i></sup>  Their glorious Executive Director is a pure joy regardless of her dry hands!  <sup><i class="fa fa-quote-right"></i>
+         
+                </sup></p>
+              
         <div class="test-img">     <center><img src="images/team-img-01.jpg"/>
               <p><strong>Not Shea</strong></p></center>
             </div>
@@ -222,16 +230,19 @@ $.each(gif, function(index) {
                
                 
             <div class="test-img"> 
-                 <p> <div class="stars">
+                 <div class="stars">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star fa-flip"></i></div></p>
-                <center><img src="images/team-img-01.jpg"/>
+                <i class="fa-solid fa-star"></i>
+                
+                </div>
+                <center>
+            <!--        <img src="images/team-img-01.jpg"/> -->
               
                  
-                  <strong>Thomas Andresakes</strong></center>
+                  <strong><a href="https://g.co/kgs/bG5d59z">Thomas Andresakes</a></strong></center>
             </div>
           </div>
           <div class="item">
@@ -371,7 +382,7 @@ $(document).ready(function() {
      
           navigation : false, // Show next and prev buttons
           slideSpeed : 400,
-		  autoPlay : 50000,
+		  autoPlay : 5000,
           paginationSpeed : 500,
           singleItem:true
      
@@ -423,7 +434,7 @@ $(document).ready(function() {
   // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
   $('html, body').animate({
     scrollTop: $(hash).offset().top
-  }, 700, function(){
+  }, 800, function(){
 
     // Add hash (#) to URL when done scrolling (default click behavior)
     window.location.hash = hash;
@@ -454,6 +465,52 @@ var gif = getGif();
     $('#img').attr('src',imageUrl);
 }
    
+    //View More Communities
+    for (var i=0;i<21;i++) {
+    $('#internalActivities').append('<tr><td>my data</td></tr>');
+}
+
+var trs = $("#internalActivities tr");
+var btnMore = $("#seeMoreRecords");
+var btnLess = $("#seeLessRecords");
+var trsLength = trs.length;
+var currentIndex = 0;
+
+trs.hide();
+trs.slice(0, 10).show(); 
+checkButton();
+
+btnMore.click(function (e) { 
+    e.preventDefault();
+    $("#internalActivities tr").slice(currentIndex, currentIndex + 10).show();
+    currentIndex += 10;
+    checkButton();
+});
+
+btnLess.click(function (e) { 
+    e.preventDefault();
+    $("#internalActivities tr").slice(currentIndex - 10, currentIndex).hide();          
+    currentIndex -= 10;
+    checkButton();
+});
+
+function checkButton() {
+    var currentLength = $("#internalActivities tr:visible").length;
+
+    if (currentLength >= trsLength) {
+        btnMore.hide();            
+    } else {
+        btnMore.show();   
+    }
+
+    if (trsLength > 10 && currentLength > 10) {
+        btnLess.show();
+    } else {
+        btnLess.hide();
+    }
+
+}
+    
     
     
 </script>

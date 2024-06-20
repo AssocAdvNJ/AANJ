@@ -203,11 +203,10 @@ video {
 	margin-bottom: 20px;
 }
 
-
 .img-portfolio {
 	margin: 1px;
-	width: auto; 
-    height: 640px;
+	width: 100%; 
+    height: 100%;
 	
 }
 .img-portfolio:hover {
@@ -535,20 +534,29 @@ nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active >
 /*--------Fontawesome icon-------*/
 
 .stars {
-    background-color: #645862;
+    /* background-color: #645862; */
     vertical-align: top;
     display: inline-block;
-    width: 85px;
+    width: 93px;
     height: 14px;
     border: 0px solid black;
-    margin-left: 40px;
-    padding-top: 30px;
+    margin-left: 0px;
+    padding-bottom: 10px;
 }
 
 .fa-star{
-    color: #FFFF00;
-    font-size: 11px;
-    margin-top: 10px;
+    /* color: #FFFF00; */
+    color: #EB233C;
+    font-size: 13px;
+    margin-bottom: 4px;
     /* stroke: black;
     stroke-width: 1px; */
+}
+
+.fa-star:hover {
+  -webkit-animation: fa-flip 1s infinite linear;
+  -moz-animation: fa-flip 1s infinite linear;
+  -o-animation: fa-flip 1s infinite linear;
+  animation: fa-flip 1s infinite linear;
+    color: #FF8080;
 }

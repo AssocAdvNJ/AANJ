@@ -307,7 +307,7 @@ The Association is so lucky to have such a dedicated, hard working staff member.
       </div>
        </div>
                         <!--  Anchor -->
-                    <br id="aboutus">
+                    Test<br id="aboutus">
    
   </div>
 </div>
@@ -509,8 +509,8 @@ checkButton();
 
 btnMore.click(function (e) { 
     e.preventDefault();
-    $("#internalActivities tr").slice(currentIndex, currentIndex + 10).show();
-    currentIndex += 10;
+    $("#internalActivities tr").slice(currentIndex, currentIndex + 5).show();
+    currentIndex += 5;
     checkButton();
 });
 
@@ -530,7 +530,7 @@ function checkButton() {
         btnMore.show();   
     }
 
-    if (trsLength > 10 && currentLength > 10) {
+    if (trsLength > 10 && currentLength > 6) {
         btnLess.show();
     } else {
         btnLess.hide();
